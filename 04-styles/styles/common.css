@@ -1,0 +1,92 @@
+/************************************
+ * Général
+ ************************************/
+body {
+    margin: 0px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+/************************************
+ * Navigation du site
+ ************************************/
+
+/**
+ * a > b	Selects all <b> elements where the parent is a <a> element
+ **/
+pre > code {    
+    padding: 10px;
+    box-shadow: 3px 5px #868585;
+}
+
+code {
+    padding: 0px 4px 0px 4px;
+    background-color: rgb(200, 200, 200);
+    color: blueviolet;
+}
+
+header {
+    display: flex;
+    flex-flow: row;
+    max-height: 50px;    
+    padding: 0.1rem;
+    background-color: black;
+}
+.logo {
+    max-height: inherit;
+}
+.logo>img{
+    max-height: inherit;
+}
+
+.navbar {
+    padding-left: 1rem;
+}
+
+.navbar>li {
+    display: inline-block;
+    padding: 0.2rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar li.current {
+    font-weight: bold;
+}
+
+/************************************
+ * contenu
+ ************************************/
+
+ main {
+     display: flex;
+     padding-right: 0.3rem;
+ }
+
+main ul {
+    padding-left: 20px;
+}
+
+main>aside {
+    min-width: 15rem;
+    background-color: rgb(241, 239, 243);
+}
+
+main>aside nav {    
+    position: sticky;
+    top: 0;
+    padding-left: 0.2rem;
+}
+
+main>.content {
+    padding-left: 1rem;
+
+}
